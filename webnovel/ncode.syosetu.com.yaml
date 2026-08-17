@@ -19,7 +19,8 @@ subtitles: |-
   (?:<div class="p-eplist__chapter-title">(?<chapter>.+?)</div>\s*
   )?<div class="p-eplist__sublist">
   <a href="(?<href>/.+?/(?<index>\d+?)/)" class="p-eplist__subtitle">
-  (?<subtitle>.+?)\s*</a>\s*
+  (?<subtitle>.+?)
+  </a>\s*
   <div class="p-eplist__update">
   (?:<span class="p-eplist__favep">.+?</span></span>)?(?<subdate>.+?)
   (?:<span title="(?<subupdate>.+?) 改稿">（<u>改</u>）</span>\s*)?</div>\s*</div>
